@@ -1,0 +1,367 @@
+Town,town_population
+Maynard,11336
+Foxborough,18399
+Lincoln,7052
+Hingham,24679
+Franklin,34087
+North Reading,15865
+Westford,24817
+Framingham,74416
+Nantucket,11399
+Westwood,16400
+Mansfield,24470
+Shrewsbury,38526
+Westminster,7997
+Hopkinton,18470
+Norwood,29725
+Reading,25400
+Plymouth,61528
+Rutland,8938
+Middleborough,25463
+Lakeville,11561
+Douglas,9038
+Middlefield,534
+Hubbardston,4829
+Bolton,5426
+Tyngsborough,12527
+Kingston,13863
+Avon,4549
+Uxbridge,14195
+Rochester,5687
+Lunenburg,11736
+Rehoboth,12385
+Mendon,6223
+Canton,23805
+Norfolk,12003
+Abington,16668
+Upton,8065
+Berlin,3240
+Swansea,16834
+West Newbury,4714
+Berkley,6851
+Boylston,4712
+Dighton,7967
+Ayer,8196
+Salisbury,9534
+Raynham,14470
+Marion,5188
+Eastham,4906
+Bellingham,17270
+Cambridge,118927
+Swampscott,15298
+Bridgewater,27619
+Rowley,6473
+Stow,7234
+Wrentham,12023
+Millis,8310
+Essex,3799
+Great Barrington,6945
+Millbury,13947
+Southborough,10208
+Topsfield,6641
+Dover,6127
+Medfield,12955
+Chelmsford,35391
+Needham,31388
+Plainville,9293
+Newburyport,18289
+Sudbury,19655
+Medway,13479
+Middleton,10110
+Sutton,9582
+Saugus,28361
+Amherst,39924
+Scituate,18924
+Weymouth,57746
+Manchester,5434
+Princeton,3488
+Carlisle,5252
+New Salem,1021
+Charlton,13713
+Holden,19303
+Littleton,10227
+Acushnet,10625
+Seekonk,15770
+Gloucester,30430
+Groveland,6849
+West Boylston,8077
+Newbury,7148
+Hawley,334
+Dunstable,3403
+Hanover,14570
+Methuen,50706
+Rockport,7282
+Holliston,14912
+Watertown,35939
+Harvard,6620
+Edgartown,4348
+Mattapoisett,6401
+Walpole,25200
+Wareham,22745
+Royalston,1277
+Sherborn,4335
+Hadley,5342
+Cohasset,8548
+West Bridgewater,7281
+Westport,16034
+Whitman,15216
+Boston,692600
+Pembroke,18509
+Andover,36356
+Mashpee,14229
+Winchendon,10905
+Taunton,57464
+Milford,29101
+Norwell,11153
+Attleboro,45237
+Hardwick,3057
+Paxton,4963
+Ipswich,14074
+Hanson,10914
+Grafton,18883
+Dartmouth,34188
+Halifax,7896
+Truro,2008
+Lancaster,8082
+Belchertown,15098
+Barre,5578
+North Attleborough,29364
+Haverhill,64014
+Marshfield,25967
+Ashburnham,6348
+Amesbury,17532
+Westhampton,1637
+Wenham,5278
+East Bridgewater,14526
+West Tisbury,2904
+Georgetown,8768
+Arlington,45531
+Wilmington,23445
+Sterling,8174
+Quincy,94470
+Norton,19948
+Gardner,20683
+Northborough,15109
+Clinton,14000
+Freetown,9394
+Stoughton,28915
+Easton,25105
+Brimfield,3680
+Dracut,31634
+Duxbury,15921
+Danvers,27549
+Westborough,19144
+Somerville,81360
+Milton,27593
+Chilmark,922
+Merrimac,6960
+Whately,1567
+Tolland,508
+Cummington,874
+Weston,12124
+Hull,10475
+Brookfield,3452
+New Braintree,1024
+Oakham,1957
+Templeton,8138
+Winchester,22799
+New Bedford,95363
+Sturbridge,9597
+Auburn,16766
+Randolph,34362
+Lynnfield,12999
+Brockton,95708
+Holbrook,11033
+Ashland,17807
+Leominster,41716
+Wakefield,27045
+Boxborough,5793
+Lynn,94299
+Peabody,53070
+Dedham,25219
+Boxford,8332
+Falmouth,30993
+Beverly,42174
+Concord,18918
+Acton,23662
+Burlington,28627
+Oxford,14009
+Athol,11732
+North Andover,31188
+Millville,3257
+North Brookfield,4792
+Shirley,7636
+Dudley,11773
+Worcester,185428
+Southampton,6171
+Northbridge,16679
+Oak Bluffs,4667
+Marblehead,20555
+Braintree,37190
+Rockland,17986
+Sharon,18895
+Fall River,89541
+Spencer,11935
+Lawrence,80028
+Salem,43226
+Wayland,13835
+Waltham,62495
+Brookline,59121
+Nahant,3513
+Wendell,878
+Phillipston,1746
+Colrain,1661
+Tisbury,4096
+Wilbraham,14689
+Pepperell,12114
+Hamilton,8051
+Plympton,2987
+West Brookfield,3727
+Woburn,40228
+Wellesley,28670
+Fairhaven,16078
+Plainfield,661
+Ashby,3219
+Harwich,12142
+Townsend,9506
+Somerset,18129
+Carver,11767
+Southbridge,16878
+Warren,5222
+Hudson,19864
+Washington,541
+Goshen,1059
+Orleans,5788
+Winthrop,18544
+Dennis,13871
+Natick,36050
+Groton,11325
+Wellfleet,2724
+Leicester,11341
+Blackstone,9288
+Chatham,5982
+Provincetown,2961
+Monson,8787
+Stoneham,24126
+Newton,88414
+Fitchburg,40638
+Southwick,9740
+Ludlow,21233
+Tewksbury,31178
+Bedford,14123
+Billerica,43367
+Webster,16949
+Hopedale,5951
+Westfield,41204
+Marlborough,39597
+Bourne,19762
+Melrose,28016
+Aquinnah,320
+Lowell,110997
+Sandwich,20169
+East Brookfield,2210
+Holland,2482
+Brewster,9775
+Hatfield,3251
+Medford,57341
+Russell,1792
+Everett,46451
+Yarmouth,23203
+Blandford,1252
+Petersham,1250
+Chesterfield,1249
+Charlemont,1233
+Gill,1465
+Belmont,26116
+Egremont,1205
+Barnstable,44477
+Agawam,28613
+Leyden,715
+Lenox,4944
+Hampden,5177
+West Springfield,28517
+Malden,60470
+Palmer,12232
+Savoy,675
+Montgomery,866
+Springfield,153606
+Peru,834
+Holyoke,40117
+Lexington,33132
+Wales,1874
+Conway,1873
+Northampton,28451
+Chicopee,55126
+South Hadley,17625
+Sunderland,3629
+Huntington,2169
+Granby,6291
+Sandisfield,891
+East Longmeadow,16192
+Longmeadow,15705
+Deerfield,4991
+Chester,1369
+Leverett,1837
+Williamsburg,2466
+Pelham,1313
+Alford,488
+Orange,7582
+Chelsea,39690
+Ware,9711
+Richmond,1416
+West Stockbridge,1257
+Mount Washington,157
+Ashfield,1717
+Warwick,769
+Easthampton,15829
+Clarksburg,1638
+Hinsdale,1911
+Granville,1611
+Greenfield,17258
+Cheshire,3129
+Williamstown,7434
+Heath,695
+Montague,8212
+Shutesbury,1754
+Northfield,2958
+New Marlborough,1458
+Buckland,1850
+Worthington,1175
+Rowe,389
+Revere,53073
+Otis,1539
+Stockbridge,1890
+Bernardston,2090
+Becket,1716
+Lanesborough,2940
+Shelburne,1837
+Sheffield,3129
+Erving,1750
+Hancock,696
+Monterey,924
+Monroe,115
+North Adams,12730
+New Ashford,223
+Dalton,6525
+Windsor,866
+Pittsfield,42142
+Adams,8010
+Tyringham,312
+Florida,715
+Lee,5664
+Gosnold,75
+Back Bay Downtown,55698
+Allston Brighton,66585
+Charlestown,19414
+Dorchester Codman,80880
+Dorchester Uphams,64277
+East Boston,46927
+Fenway,54727
+Hyde Park,68446
+Jamaica Plain,40377
+Mattapan,29591
+Roslindale,33771
+Roxbury,43127
+South Boston,40094
+South End,35756
+West Roxbury,28487

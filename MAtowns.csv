@@ -1,0 +1,567 @@
+Town,zipcode,town_population
+Athol,01331,11732
+Westfield,01085,41204
+Shelburne,01370,1837
+Hinsdale,01235,1911
+Dartmouth,02747,34188
+Rehoboth,02769,12385
+Williamstown,01267,7434
+Blandford,01008,1252
+Amherst,01002,39924
+Sandisfield,01255,891
+North Adams,01247,12730
+Plymouth,02360,61528
+Great Barrington,01230,6945
+Becket,01223,1716
+Granville,01034,1611
+Middleborough,02346,25463
+Petersham,01366,1250
+Pittsfield,01201,42142
+Charlemont,01339,1233
+Colrain,01340,1661
+Westport,02790,16034
+Belchertown,01007,15098
+Lanesborough,01237,2940
+Hubbardston,01452,4829
+Royalston,01368,1277
+Easthampton,01027,15829
+Conway,01341,1873
+Spencer,01562,11935
+Sutton,01590,9582
+Williamsburg,01096,2466
+Groton,01450,11325
+Cummington,01026,874
+Chilmark,02535,922
+West Stockbridge,01266,1257
+Concord,01742,18918
+New Marlborough,01259,1458
+Ware,01082,9711
+Oak Bluffs,02568,4667
+Carver,02330,11767
+Douglas,01516,9038
+Ashburnham,01430,6348
+Sheffield,01257,3129
+Orange,01364,7582
+Warwick,01378,769
+Princeton,01541,3488
+Westminster,01473,7997
+Nantucket,02554,11399
+Rutland,01543,8938
+Savoy,01256,675
+Rochester,02770,5687
+Northfield,01360,2958
+Bernardston,01337,2090
+Brimfield,01010,3680
+Taunton,02780,57464
+Monson,01057,8787
+Barre,01005,5578
+Winchendon,01475,10905
+Charlton,01507,13713
+Foxborough,02035,18399
+Bolton,01740,5426
+Southbridge,01550,16878
+Townsend,01469,9506
+Templeton,01468,8138
+Mashpee,02649,14229
+Lee,01238,5664
+Andover,01810,36356
+Worthington,01098,1175
+Ipswich,01938,14074
+Wrentham,02093,12023
+Wilbraham,01095,14689
+Methuen,01844,50706
+Lenox,01240,4944
+Deerfield,01373,4991
+Marlborough,01752,39597
+Dudley,01571,11773
+North Brookfield,01535,4792
+Harvard,01451,6620
+Shrewsbury,01545,38526
+Westborough,01581,19144
+Upton,01568,8065
+Oakham,01068,1957
+Dracut,01826,31634
+Norwell,02061,11153
+Oxford,01540,14009
+Tewksbury,01876,31178
+New Braintree,01531,1024
+Warren,01083,5222
+Holden,01520,19303
+Mansfield,02048,24470
+Wellfleet,02667,2724
+Acton,01720,23662
+Montague,01351,8212
+Bourne,02542,19762
+Otis,01253,1539
+Sterling,01564,8174
+Southwick,01077,9740
+Westford,01886,24817
+Fitchburg,01420,40638
+Cheshire,01225,3129
+Hardwick,01037,3057
+Uxbridge,01569,14195
+Norton,02766,19948
+Marshfield,02050,25967
+Huntington,01050,2169
+Southampton,01073,6171
+Windsor,01270,866
+Granby,01033,6291
+Edgartown,02539,4348
+Bridgewater,02324,27619
+Ludlow,01056,21233
+Greenfield,01301,17258
+Sturbridge,01566,9597
+Wendell,01379,878
+Hopkinton,01748,18470
+Lunenburg,01462,11736
+Rowe,01367,389
+Attleboro,02703,45237
+North Andover,01845,31188
+Ashfield,01330,1717
+Falmouth,02536,30993
+Gloucester,01930,30430
+Franklin,02038,34087
+Pembroke,02359,18509
+Pepperell,01463,12114
+Swansea,02777,16834
+West Brookfield,01585,3727
+Adams,01220,8010
+Dartmouth,02748,34188
+Lancaster,01523,8082
+Leominster,01453,41716
+Ashby,01431,3219
+Chester,01011,1369
+Gardner,01440,20683
+Duxbury,02332,15921
+Mount Washington,01258,157
+Monterey,01245,924
+Brewster,02631,9775
+Shutesbury,01072,1754
+Sudbury,01776,19655
+Hadley,01035,5342
+Boxford,01921,8332
+Sharon,02067,18895
+Raynham,02767,14470
+Leverett,01054,1837
+Truro,02652,2008
+Holbrook,02343,11033
+Rockport,01966,7282
+Clinton,01510,14000
+Wellesley,02481,28670
+Springfield,01104,153606
+Yarmouth,02664,23203
+Wareham,02538,22745
+Barnstable,02655,44477
+Worcester,01604,185428
+Whitman,02382,15216
+Montague,01349,8212
+Sandwich,02644,20169
+Lexington,02420,33132
+Stoneham,02180,24126
+Winchester,01890,22799
+Revere,02151,53073
+Chicopee,01013,55126
+Waltham,02451,62495
+Worcester,01605,185428
+Oxford,01537,14009
+Worcester,01606,185428
+Holyoke,01040,40117
+Hingham,02043,24679
+Wakefield,01880,27045
+Weymouth,02190,57746
+Lowell,01852,110997
+Goshen,01032,1059
+Somerset,02726,18129
+Hatfield,01088,3251
+Worcester,01602,185428
+Dennis,02638,13871
+Fall River,02721,89541
+Barnstable,02635,44477
+New Bedford,02740,95363
+Springfield,01109,153606
+Hopedale,01747,5951
+Maynard,01754,11336
+Cummington,01026,874
+Chicopee,01022,55126
+Newton,02459,88414
+Malden,02148,60470
+Bourne,02559,19762
+Millville,01529,3257
+Plainfield,01070,661
+Canton,02021,23805
+Kingston,02364,13863
+Holliston,01746,14912
+Bellingham,02019,17270
+Boylston,01505,4712
+Northborough,01532,15109
+Wellesley,02482,28670
+Lynn,01905,94299
+Chelmsford,01863,35391
+Heath,01346,695
+Worcester,01603,185428
+Melrose,02176,28016
+Belmont,02478,26116
+Montague,01376,8212
+Northampton,01053,28451
+Avon,02322,4549
+Harvard,01434,6620
+Marblehead,01945,20555
+Hancock,01237,696
+Barnstable,02630,44477
+Falmouth,02556,30993
+Deerfield,01342,4991
+Hampden,01036,5177
+Dalton,01226,6525
+Freetown,02717,9394
+Wareham,02571,22745
+Bourne,02532,19762
+Berkley,02779,6851
+Scituate,02066,18924
+Brookfield,01506,3452
+Peabody,01960,53070
+Seekonk,02771,15770
+Russell,01071,1792
+North Attleborough,02760,29364
+Acushnet,02743,10625
+Chelmsford,01824,35391
+Stow,01775,7234
+Mendon,01756,6223
+Harwich,02645,12142
+Walpole,02081,25200
+Northampton,01062,28451
+Rowley,01969,6473
+Newbury,01951,7148
+Tyngsborough,01879,12527
+East Bridgewater,02333,14526
+West Springfield,01089,28517
+Framingham,01701,74416
+Sandwich,02563,20169
+Halifax,02338,7896
+Mattapoisett,02739,6401
+Weston,02493,12124
+Leicester,01524,11341
+Littleton,01460,10227
+Wilmington,01887,23445
+South Hadley,01075,17625
+Billerica,01821,43367
+Huntington,01050,2169
+Barnstable,02668,44477
+Freetown,02702,9394
+Sherborn,01770,4335
+Shirley,01464,7636
+Orleans,02653,5788
+Wayland,01778,13835
+Holden,01522,19303
+Natick,01760,36050
+Fall River,02720,89541
+West Bridgewater,02379,7281
+Hanover,02339,14570
+Paxton,01612,4963
+Milford,01757,29101
+Norfolk,02056,12003
+Hanson,02341,10914
+Salisbury,01952,9534
+Carlisle,01741,5252
+Southborough,01772,10208
+Dover,02030,6127
+Wales,01081,1874
+Plympton,02367,2987
+Sunderland,01375,3629
+Stockbridge,01262,1890
+Hamilton,01982,8051
+Easton,02375,25105
+Beverly,01915,42174
+West Boylston,01583,8077
+Medfield,02052,12955
+Gill,01354,1465
+Dunstable,01827,3403
+Chesterfield,01012,1249
+Auburn,01501,16766
+Stoughton,02072,28915
+Millbury,01527,13947
+East Longmeadow,01028,16192
+Woburn,01801,40228
+Holland,01521,2482
+Ashland,01721,17807
+Northampton,01060,28451
+Brockton,02301,95708
+Chicopee,01020,55126
+Fairhaven,02719,16078
+Middleton,01949,10110
+Webster,01570,16949
+Erving,01344,1750
+Braintree,02184,37190
+Haverhill,01830,64014
+Richmond,01254,1416
+Easton,02356,25105
+Eastham,02642,4906
+Lincoln,01773,7052
+West Newbury,01985,4714
+Chester,01011,1369
+Danvers,01923,27549
+Essex,01929,3799
+Truro,02666,2008
+North Reading,01864,15865
+Gosnold,02713,75
+Marion,02738,5188
+Tyringham,01264,312
+Bedford,01730,14123
+Milton,02186,27593
+Amesbury,01913,17532
+Georgetown,01833,8768
+Agawam,01001,28613
+Falmouth,02540,30993
+Agawam,01030,28613
+Quincy,02169,94470
+Sandwich,02537,20169
+Millis,02054,8310
+Hudson,01749,19864
+Burlington,01803,28627
+Chatham,02633,5982
+Haverhill,01832,64014
+Hinsdale,01235,1911
+Townsend,01474,9506
+Plainville,02762,9293
+Topsfield,01983,6641
+Nantucket,02564,11399
+Medway,02053,13479
+Templeton,01436,8138
+Dighton,02764,7967
+Saugus,01906,28361
+Blackstone,01504,9288
+Westwood,02090,16400
+Dighton,02715,7967
+Grafton,01519,18883
+Randolph,02368,34362
+Sturbridge,01518,9597
+Williamsburg,01039,2466
+Florida,01343,715
+Norwood,02062,29725
+Taunton,02718,57464
+Grafton,01536,18883
+Ayer,01432,8196
+Brockton,02302,95708
+Hatfield,01038,3251
+Boxborough,01719,5793
+New Bedford,02745,95363
+Lynnfield,01940,12999
+Cohasset,02025,8548
+East Brookfield,01515,2210
+Williamsburg,01039,2466
+Abington,02351,16668
+Rockland,02370,17986
+Provincetown,02657,2961
+Reading,01867,25400
+Northbridge,01534,16679
+Yarmouth,02673,23203
+Lexington,02421,33132
+Longmeadow,01106,15705
+Wareham,02576,22745
+Dennis,02660,13871
+Groveland,01834,6849
+Needham,02492,31388
+Barnstable,02648,44477
+Barnstable,02601,44477
+Williamsburg,01096,2466
+Billerica,01862,43367
+Ware,01082,9711
+Great Barrington,01236,6945
+Newburyport,01950,18289
+Weymouth,02188,57746
+North Adams,01247,12730
+Blandford,01008,1252
+Salem,01970,43226
+Wenham,01984,5278
+Haverhill,01835,64014
+Northbridge,01588,16679
+Manchester,01944,5434
+Montague,01347,8212
+Taunton,02718,57464
+Malden,02148,60470
+Ayer,01432,8196
+Lynn,01904,94299
+Chesterfield,01084,1249
+Leicester,01542,11341
+Weymouth,02189,57746
+Springfield,01108,153606
+Watertown,02472,35939
+Lowell,01854,110997
+Framingham,01702,74416
+Yarmouth,02675,23203
+Newbury,01922,7148
+Merrimac,01860,6960
+Medford,02155,57341
+Barnstable,02632,44477
+Lawrence,01841,80028
+Swampscott,01907,15298
+Dennis,02639,13871
+Hull,02045,10475
+Weymouth,02191,57746
+Falmouth,02543,30993
+Brimfield,01010,3680
+Waltham,02452,62495
+Worcester,01609,185428
+Wendell,01380,878
+Waltham,02453,62495
+Springfield,01118,153606
+Springfield,01129,153606
+Leicester,01611,11341
+Springfield,01119,153606
+Everett,02149,46451
+Lowell,01851,110997
+Lawrence,01843,80028
+Sheffield,01222,3129
+Arlington,02474,45531
+Grafton,01560,18883
+Warren,01092,5222
+Cambridge,02138,118927
+Needham,02494,31388
+Newton,02467,88414
+Becket,01223,1716
+Harwich,02646,12142
+Bourne,02561,19762
+Worcester,01607,185428
+Springfield,01151,153606
+Quincy,02171,94470
+Brookline,02445,59121
+Lynn,01902,94299
+Bourne,02562,19762
+Somerset,02725,18129
+Walpole,02032,25200
+Dennis,02670,13871
+Chatham,02659,5982
+Chelsea,02150,39690
+Buckland,01338,1850
+Worcester,01610,185428
+Arlington,02476,45531
+Newton,02465,88414
+Bourne,02534,19762
+Amherst,01002,39924
+Fall River,02724,89541
+Newton,02466,88414
+Chatham,02650,5982
+Newton,02460,88414
+New Bedford,02744,95363
+Otis,01029,1539
+Barre,01074,5578
+New Salem,01355,1021
+Lakeville,02347,11561
+Palmer,01069,12232
+Hardwick,01031,3057
+Newton,02461,88414
+Somerville,02145,81360
+Lowell,01850,110997
+Berlin,01503,3240
+Dedham,02026,25219
+Bourne,02532,19762
+Brookline,02446,59121
+North Attleborough,02763,29364
+Springfield,01105,153606
+Bedford,01731,14123
+Amherst,01003,39924
+Somerville,02144,81360
+Cambridge,02140,118927
+Springfield,01128,153606
+Nahant,01908,3513
+Westport,02791,16034
+Dennis,02641,13871
+Walpole,02071,25200
+Plainfield,01070,661
+Beverly,01965,42174
+Barnstable,02647,44477
+Barnstable,02637,44477
+Cambridge,02141,118927
+Harvard,01434,6620
+Newton,02462,88414
+Newton,02467,88414
+Westminster,01441,7997
+Lee,01260,5664
+Lawrence,01840,80028
+Newton,02464,88414
+Wareham,02558,22745
+Worcester,01608,185428
+Springfield,01103,153606
+Cambridge,02142,118927
+Lynn,01901,94299
+Wellfleet,02663,2724
+Hatfield,01066,3251
+Hardwick,01094,3057
+Marshfield,02020,25967
+Lanesborough,01224,2940
+Southborough,01745,10208
+Hanson,02350,10914
+Bourne,02553,19762
+Easton,02357,25105
+Oak Bluffs,02557,4667
+Acton,01718,23662
+Ware,01082,9711
+Harwich,02661,12142
+Lenox,01242,4944
+Templeton,01438,8138
+Barnstable,02672,44477
+Palmer,01009,12232
+Northampton,01063,28451
+Lancaster,01561,8082
+Revere,02151,53073
+Scituate,02047,18924
+New Bedford,02746,95363
+Harwich,02671,12142
+Newton,02467,88414
+Cambridge,02139,118927
+Whately,01093,1567
+Quincy,02170,94470
+Monroe,01350,115
+Newton,02458,88414
+Palmer,01080,12232
+Newton,02468,88414
+Springfield,01107,153606
+Somerville,02143,81360
+Fall River,02723,89541
+Winthrop,02152,18544
+Allston Brighton,02163,66585
+Allston Brighton,02135,66585
+Allston Brighton,02134,66585
+Charlestown,02129,19414
+Back Bay Downtown,02108,55698
+Back Bay Downtown,02114,55698
+Back Bay Downtown,02116,55698
+Back Bay Downtown,02199,55698
+Back Bay Downtown,02109,55698
+Back Bay Downtown,02110,55698
+Back Bay Downtown,02103,55698
+Back Bay Downtown,02113,55698
+East Boston,02128,46927
+Dorchester Uphams,02121,64277
+Dorchester Uphams,02125,64277
+Dorchester Codman,02122,80880
+Dorchester Codman,02124,80880
+Fenway,02115,54727
+Fenway,02215,54727
+Hyde Park,02136,68446
+Jamaica Plain,02130,40377
+Mattapan,02126,29591
+Roslindale,02131,33771
+Roxbury,02119,43127
+Roxbury,02120,43127
+South Boston,02127,40094
+South Boston,02210,40094
+South End,02111,35756
+South End,02118,35756
+West Roxbury,02132,28487
+Alford,01266,488
+Aquinnah,02535,320
+Clarksburg,01247,1638
+Egremont,01230,1205
+Hawley,01339,334
+Leyden,01337,715
+Middlefield,01243,534
+Montgomery,01050,866
+New Ashford,01237,223
+Pelham,01002,1313
+Peru,01235,834
+Phillipston,01331,1746
+Tisbury,02568,4096
+Tolland,01034,508
+Washington,01223,541
+West Tisbury,02575,2904
+Westhampton,01027,1637
