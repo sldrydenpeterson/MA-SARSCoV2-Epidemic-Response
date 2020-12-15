@@ -13,7 +13,7 @@ library(patchwork)
 MAtowns <- read_csv("MAtowns_no_bosneighborhoods.csv")  #reading in with consolidated Boston
 MAtownpoptable <- read_csv("MAtownpoptable.csv")
 
-allcovidtowns <- read_csv("allcovidtowns_no_bosneighborhoods.csv", guess_max=2000) %>% filter(date > as.Date("2020-05-26")) %>% # MDPH town testing data available from 2020-05-27
+allcovidtowns <- read_csv("allcovidtowns_no_bosneighborhoods.csv", guess_max=2000) %>% filter(date > as.Date("2020-05-26") & date < as.Date("2020-10-15")) %>% # MDPH town testing data available from 2020-05-27
   mutate(date=(lubridate::ymd(date)))
 
 #Adding town_population to allcovidtowns
@@ -107,11 +107,11 @@ testing.target<-inner_join(testingmatch %>%
 testingmatch<- left_join(testingmatch, testing.target  %>% 
                            dplyr::select(date, Town, testingrate.target), by= c("date", "Town")) %>%
   mutate(
-    testingrate.target.cap=if_else(testingrate.target>10000, 10000, testingrate.target), #capping at 10% of population to reduce distortion of collegetown testing
+    testingrate.target.cap=if_else(testingrate.target>10000, 10000, testingrate.target), #capping at 10% of population (10000/100000) to reduce distortion of collegetown testing
     testingrate.delta=testingrate.target.cap-testingrate,
     testingrate.gap=if_else(testingrate.delta<0, 0, testingrate.delta), #excess testing set to 0, no benefit from earlier/later testing
     testingrate.excess=if_else(testingrate.delta<0, abs(testingrate.delta), 0),
-    testingrate.excess=if_else(testingrate.excess>10000, 10000, testingrate.excess), #capping at 10% of population to reduce distortion of collegetown testing
+    testingrate.excess=if_else(testingrate.excess>10000, 10000, testingrate.excess), #capping at 10% of population  (10000/100000) to reduce distortion of collegetown testing
     testing.gap=testingrate.gap*(town_population/100000),
     testing.excess=testingrate.excess*(town_population/100000),
     week=lubridate::week(date))
@@ -327,6 +327,8 @@ Equitytown.weekly.poisson <-Equitytown.weekly %>%
          highest_SES=if_else(quartile.SVI_SES >= 4, 1, 0),
          highest_house=if_else(quartile.SVI_house >= 4, 1, 0),
          highest_disability=if_else(quartile.SVI_ages_disability >= 4, 1, 0),
+         week2=week*week,
+         week3=week*week*week
   )
 
 summary(model.ma<- glm.nb(formula = testing.gap ~ quartile.SVI_SES + highest_minority + week +
@@ -366,7 +368,7 @@ MAtownsbos <- read_csv("MAtowns.csv") %>% filter(Town %in% boston)
 MAtownbospoptable <- read_csv("MAtownpoptable.csv")  %>% filter(Town %in% boston)
 
 #read in updating (twice weekly) .csv files of cases/testing
-allcovidtownsbos <- read_csv("allcovidtowns.csv", guess_max=2000) %>% filter(date > as.Date("2020-05-26") & Town %in% boston) %>% # MDPH town testing data available from 2020-05-27
+allcovidtownsbos <- read_csv("allcovidtowns.csv", guess_max=2000) %>% filter(date > as.Date("2020-05-26") & date < as.Date("2020-10-15") & Town %in% boston) %>% # MDPH town testing data available from 2020-05-27
   mutate(date=(lubridate::ymd(date)))
 
 
@@ -444,11 +446,11 @@ testing.targetbos<-inner_join(testingmatchbos %>%
 testingmatchbos<- left_join(testingmatchbos, testing.targetbos  %>% 
                               dplyr::select(date, Town, testingrate.target), by= c("date", "Town")) %>%
   mutate(
-    testingrate.target.cap=if_else(testingrate.target>10000, 10000, testingrate.target), #capping at 10% of population to reduce distortion of collegetown testing
+    testingrate.target.cap=if_else(testingrate.target>10000, 10000, testingrate.target), #capping at 10% of population  (10000/100000) to reduce distortion of collegetown testing
     testingrate.delta=testingrate.target.cap-testingrate,
     testingrate.gap=if_else(testingrate.delta<0, 0, testingrate.delta), #excess testing set to 0, no benefit from earlier/later testing
     testingrate.excess=if_else(testingrate.delta<0, abs(testingrate.delta), 0),
-    testingrate.excess=if_else(testingrate.excess>10000, 10000, testingrate.excess), #capping at 10% of population to reduce distortion of collegetown testing
+    testingrate.excess=if_else(testingrate.excess>10000, 10000, testingrate.excess), #capping at 10% of population  (10000/100000) to reduce distortion of collegetown testing
     testing.gap=testingrate.gap*(town_population/100000),
     testing.excess=testingrate.excess*(town_population/100000),
     week=lubridate::week(date))
@@ -711,14 +713,16 @@ gap.ma.plot<-ggplot(gap.plot %>%
   facet_wrap(vars(SVI_index), ncol = 1, as.table = FALSE) +
   scale_fill_manual(values=colors.rev,  
                     name="SVI Domain Percentile")  +
-  scale_x_date(limits= c(as.Date("2020-06-01"), as.Date("2020-10-07"))) +
+  scale_x_date(limits= c(as.Date("2020-06-01"), as.Date("2020-12-07"))) +
   theme(legend.position = c(.45, .95), legend.justification = c(1, 1),legend.key.size = unit(0.3, "in")) +
   labs(x="Date", y="Cumulative Testing Gap\n(tests per 100,000 residents)",
        title="Massachusetts Cities and Towns")
 
 
 # map plots
-townsgeo<-read.csv("townsgeo.csv")
+townsgeo1<-read.csv("townsgeo1.csv")
+townsgeo2<-read.csv("townsgeo2.csv")
+townsgeo<- rbind(townsgeo1,townsgeo2)
 
 EquitytownGeo <-  left_join(townsgeo, Equitytown, by = "Town")
 colors<-c(  "#80796BFF","#DF8F44FF", "#B24745FF", "#B24745FF")
@@ -835,13 +839,13 @@ gap.bos.plot<- ggplot(gap.plot.bos %>%
   facet_wrap(vars(SVI_index), ncol = 1, as.table = FALSE) +
   scale_fill_manual(values=colors.rev,  
                     name="SVI Domain Percentile")  +
-  scale_x_date(limits= c(as.Date("2020-06-01"), as.Date("2020-10-07"))) +
+  scale_x_date(limits= c(as.Date("2020-06-01"), as.Date("2020-12-07"))) +
   theme(legend.position = c(.45, .95), legend.key.size = unit(0.3, "in"), legend.justification = c(1, 1)) +
   labs(x="Date", y="",
        title="Boston Neighborhoods")
 
 gap.ma.plot + gap.bos.plot
-
+ggsave("updatedgap.pdf", width=18, height=12)
 
 
 
