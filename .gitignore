@@ -31,3 +31,4 @@ vignettes/*.pdf
 # zsh files
 .zshrc
 .Rproj.user
+.pdf
