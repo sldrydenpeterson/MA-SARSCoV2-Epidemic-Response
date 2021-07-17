@@ -29,6 +29,7 @@ vignettes/*.pdf
 # macOS files
 .DS_Store
 # zsh files
-.zshrc
-.Rproj.user
-.pdf
+*.zshrc
+*.Rproj.user
+*.pdf
+
