@@ -105,31 +105,38 @@ town.vax<-left_join(town.vax2, allcovidtowns %>% filter(date == analysisdt), by=
          small.town=if_else(population>7499, 0, 1),
          age65up.ord=as.numeric(cut(age65up.pct, breaks=c(-1, 0.15, 0.2, 0.25, Inf), labels=c(1,2,3,4)))) 
 
+#number of towns < 7500 pop
 town.vax %>%
   count(small.town)
 
+#total evaluated population
 totalpop <- town.vax %>%
   tally(population)
 totalpop
 
+#total covid cases and percent
 totalcovid<- town.vax %>%
   tally(Count)
 totalcovid
+totalcovid/totalpop
 
+#total vax and percent
 totalvax<- town.vax %>%
   tally(fullvax.total)
 totalvax
+totalvax/totalpop
 
+#statewide VIR (fig 1)
 totalvax/totalcovid
 
+#min/max of vax and incidence
 min(town.vax$cumulative_incidence)
 max(town.vax$cumulative_incidence)
 
 min(town.vax$vaccine_prev)
 max(town.vax$vaccine_prev)
 
-totalcovid/totalpop
-totalvax/totalpop
+
 
 
 
@@ -236,6 +243,10 @@ g3<-town.vax %>% filter(population>3000) %>%
 g3.hoover<-hoover(town.vax$fullvax.total, town.vax$Count)
 g3.gini<-gini(town.vax$fullvax.total, town.vax$Count, coefnorm = FALSE, na.rm = TRUE)
 
+#community hoover and gini
+g3.hoover
+g3.gini
+
 # number of vaccine courses redistributed to achieve equity between communities
 totalvaxMA*g3.hoover
 
@@ -289,6 +300,9 @@ g1<-total.byindiv %>%
 g1.hoover<-hoover(total.byindiv$VaccineCount, total.byindiv$CaseCount)
 g1.gini<-gini(total.byindiv$VaccineCount, total.byindiv$CaseCount, coefnorm = FALSE,  na.rm = TRUE)
 
+#hoover and gini by individuals
+g1.hoover
+g1.gini
 #need to duplicate to get colors to go from min to max
 g2<-rbind(g1, g1) %>%
   arrange(VIR) %>%
