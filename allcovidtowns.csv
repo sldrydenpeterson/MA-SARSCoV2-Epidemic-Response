@@ -28216,48 +28216,63 @@ date,Town,Count,Tests
 2021-09-09,South Boston,5356,97701
 2021-09-09,South End,3863,86866
 2021-09-09,West Roxbury,2532,57508
-2021-09-16,Allston Brighton,5816,27
-2021-09-16,Charlestown,1601,18
-2021-09-16,Back Bay Downtown,4164,29
-2021-09-16,East Boston,8240,31
-2021-09-16,Dorchester Uphams,9588,29
-2021-09-16,Dorchester Codman,10876,22
-2021-09-16,Fenway,3953,36
-2021-09-16,Hyde Park,4873,22
-2021-09-16,Jamaica Plain,3381,24
-2021-09-16,Mattapan,3248,26
-2021-09-16,Roslindale,3804,17
-2021-09-16,Roxbury,6108,32
-2021-09-16,South Boston,5450,33
-2021-09-16,South End,3947,34
-2021-09-16,West Roxbury,2566,17
-2021-09-23,Allston Brighton,5911,20
-2021-09-23,Charlestown,1631,22
-2021-09-23,Back Bay Downtown,4238,19
-2021-09-23,East Boston,8295,17
-2021-09-23,Dorchester Uphams,9705,26
-2021-09-23,Dorchester Codman,10993,21
-2021-09-23,Fenway,4068,30
-2021-09-23,Hyde Park,4908,15
-2021-09-23,Jamaica Plain,3414,12
-2021-09-23,Mattapan,3276,14
-2021-09-23,Roslindale,3827,10
-2021-09-23,Roxbury,6200,30
-2021-09-23,South Boston,5544,34
-2021-09-23,South End,4020,29
-2021-09-23,West Roxbury,2584,9
-2021-09-30,Allston Brighton,6002,20
-2021-09-30,Charlestown,1658,20
-2021-09-30,Back Bay Downtown,4300,16
-2021-09-30,East Boston,8353,18
-2021-09-30,Dorchester Uphams,9796,20
-2021-09-30,Dorchester Codman,11098,19
-2021-09-30,Fenway,4116,13
-2021-09-30,Hyde Park,4949,17
-2021-09-30,Jamaica Plain,3437,8
-2021-09-30,Mattapan,3319,-1107
-2021-09-30,Roslindale,3851,10
-2021-09-30,Roxbury,6244,15
-2021-09-30,South Boston,5605,22
-2021-09-30,South End,4070,20
-2021-09-30,West Roxbury,2609,13
+2021-09-16,Allston Brighton,5816,NA
+2021-09-16,Charlestown,1601,NA
+2021-09-16,Back Bay Downtown,4164,NA
+2021-09-16,East Boston,8240,NA
+2021-09-16,Dorchester Uphams,9588,NA
+2021-09-16,Dorchester Codman,10876,NA
+2021-09-16,Fenway,3953,NA
+2021-09-16,Hyde Park,4873,NA
+2021-09-16,Jamaica Plain,3381,NA
+2021-09-16,Mattapan,3248,NA
+2021-09-16,Roslindale,3804,NA
+2021-09-16,Roxbury,6108,NA
+2021-09-16,South Boston,5450,NA
+2021-09-16,South End,3947,NA
+2021-09-16,West Roxbury,2566,NA
+2021-09-23,Allston Brighton,5911,NA
+2021-09-23,Charlestown,1631,NA
+2021-09-23,Back Bay Downtown,4238,NA
+2021-09-23,East Boston,8295,NA
+2021-09-23,Dorchester Uphams,9705,NA
+2021-09-23,Dorchester Codman,10993,NA
+2021-09-23,Fenway,4068,NA
+2021-09-23,Hyde Park,4908,NA
+2021-09-23,Jamaica Plain,3414,NA
+2021-09-23,Mattapan,3276,NA
+2021-09-23,Roslindale,3827,NA
+2021-09-23,Roxbury,6200,NA
+2021-09-23,South Boston,5544,NA
+2021-09-23,South End,4020,NA
+2021-09-23,West Roxbury,2584,NA
+2021-09-30,Allston Brighton,6002,138584
+2021-09-30,Charlestown,1658,43096
+2021-09-30,Back Bay Downtown,4300,138723
+2021-09-30,East Boston,8353,102906
+2021-09-30,Dorchester Uphams,9796,118134
+2021-09-30,Dorchester Codman,11098,136065
+2021-09-30,Fenway,4116,93295
+2021-09-30,Hyde Park,4949,73757
+2021-09-30,Jamaica Plain,3437,108122
+2021-09-30,Mattapan,3319,49920
+2021-09-30,Roslindale,3851,66297
+2021-09-30,Roxbury,6244,88365
+2021-09-30,South Boston,5605,99270
+2021-09-30,South End,4070,88233
+2021-09-30,West Roxbury,2609,58666
+2021-10-07,Allston Brighton,6065,140463
+2021-10-07,Charlestown,1680,43813
+2021-10-07,Back Bay Downtown,4345,141081
+2021-10-07,East Boston,8403,104602
+2021-10-07,Dorchester Uphams,9885,120334
+2021-10-07,Dorchester Codman,11208,138774
+2021-10-07,Fenway,4176,94184
+2021-10-07,Hyde Park,4987,75320
+2021-10-07,Jamaica Plain,3465,109776
+2021-10-07,Mattapan,3341,50942
+2021-10-07,Roslindale,3878,67473
+2021-10-07,Roxbury,6315,89871
+2021-10-07,South Boston,5680,100793
+2021-10-07,South End,4105,89483
+2021-10-07,West Roxbury,2629,59832
