@@ -183,14 +183,15 @@ vaccine.schoolage.geo <-
 
 allma.5to11vax<-ggplot()+
 geom_polygon(data = vaccine.schoolage.geo %>% filter(Age_group == "5-11 Years") %>%
-               mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81, 
+               mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81,
+                                             fullvax.pct <0.21 ~ 0.21,
                                              fullvax.pct <=0.81 ~ fullvax.pct)), 
              aes(x = long, y = lat, group = group, fill=fullvax.pct*100), 
              colour = "white", alpha = 0.9, size = .25) +
   coord_quickmap() + theme_void() + 
   theme(legend.position = c(.3, .28), legend.direction = "horizontal") +
   scale_fill_distiller(palette='YlOrRd', direction=1, na.value = "light grey",
-                       limits=c(0,81),breaks = c(0, 20, 40, 60, 80),
+                       limits=c(21,81),breaks = c(25, 50, 75),
                        name="Percent of 5 to 11\nyear-old residents") +
   labs(title="Complete vaccination among 5 to 11 year-olds, Massachusetts",
        subtitle = paste0("Data through ", max(vaccine.schoolage$reportdate, na.rm = TRUE)),
@@ -201,14 +202,15 @@ ggsave("allma 5to11vax.pdf", width=16, height=9)
 
 allma.12to15vax<-ggplot()+
   geom_polygon(data = vaccine.schoolage.geo %>% filter(Age_group == "12-15 Years") %>%
-                 mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81, 
+                 mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81,
+                                               fullvax.pct <0.21 ~ 0.21,
                                                fullvax.pct <=0.81 ~ fullvax.pct)), 
                aes(x = long, y = lat, group = group, fill=fullvax.pct*100), 
                colour = "white", alpha = 0.9, size = .25) +
   coord_quickmap() + theme_void() + 
   theme(legend.position = c(.3, .28), legend.direction = "horizontal") +
   scale_fill_distiller(palette='YlOrRd', direction=1, na.value = "light grey",
-                       limits=c(0,81),breaks = c(0, 20, 40, 60, 80),
+                       limits=c(21,81),breaks = c(25, 50, 75),
                        name="Percent of 12 to 15\nyear-old residents") +
   labs(title="Complete vaccination among 12 to 15 year-olds, Massachusetts",
        subtitle = paste0("Data through ", max(vaccine.schoolage$reportdate, na.rm = TRUE)),
@@ -219,7 +221,8 @@ ggsave("allma 12to15vax.pdf", width=16, height=9)
 
 boston.5to11vax<-ggplot()+
   geom_polygon(data = vaccine.schoolage.geo %>% filter(Age_group == "5-11 Years") %>% 
-                 mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81, 
+                 mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81,
+                                               fullvax.pct <0.21 ~ 0.21,
                                                fullvax.pct <=0.81 ~ fullvax.pct)), 
                aes(x = long, y = lat, group = group, fill=fullvax.pct*100), 
                colour = "white", alpha = 0.9, size = .25) +
@@ -228,7 +231,7 @@ boston.5to11vax<-ggplot()+
         legend.direction = "vertical", aspect.ratio = 0.75) +
   coord_cartesian(xlim=c(-71.4, -70.6), ylim = c(42.18, 42.62))+
   scale_fill_distiller(palette='YlOrRd', direction=1, na.value = "light grey",
-                       limits=c(0,81),breaks = c(0, 20, 40, 60, 80),
+                       limits=c(21,81),breaks = c(25, 50, 75),
                        name="Percent of 5 to 11\nyear-old residents") +
   labs(title="Complete vaccination among 5 to 11 year-olds, Metro Boston",
        subtitle = paste0("Data through ", max(vaccine.schoolage$reportdate, na.rm = TRUE)),
@@ -243,7 +246,8 @@ ggsave("boston 5to11vax.pdf", height = 8, width =12)
 
 boston.12to15vax<-ggplot()+
   geom_polygon(data = vaccine.schoolage.geo %>% filter(Age_group == "12-15 Years") %>% 
-                 mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81, 
+                 mutate(fullvax.pct= case_when(fullvax.pct >0.81 ~ 0.81,
+                                               fullvax.pct <0.21 ~ 0.21,
                                                fullvax.pct <=0.81 ~ fullvax.pct)), 
                aes(x = long, y = lat, group = group, fill=fullvax.pct*100), 
                colour = "white", alpha = 0.9, size = .25) +
@@ -252,7 +256,7 @@ boston.12to15vax<-ggplot()+
         legend.direction = "vertical", aspect.ratio = 0.75) +
   coord_cartesian(xlim=c(-71.4, -70.6), ylim = c(42.18, 42.62))+
   scale_fill_distiller(palette='YlOrRd', direction=1, na.value = "light grey",
-                       limits=c(0,81),breaks = c(0, 20, 40, 60, 80),
+                       limits=c(21,81),breaks = c(25, 50, 75),
                        name="Percent of 12 to 15\nyear-old residents") +
   labs(title="Complete vaccination among 12 to 15 year-olds, Metro Boston",
        subtitle = paste0("Data through ", max(vaccine.schoolage$reportdate, na.rm = TRUE)),
